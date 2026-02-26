@@ -1,10 +1,12 @@
+# =========================
+# Frontend (Angular)
+# =========================
+
 frontend/.claude/
 frontend/.cursor/
 frontend/.gemini/
 frontend/.github/
 frontend/.vscode/
-
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
 frontend/dist
@@ -47,3 +49,43 @@ frontend/__screenshots__/
 # System files
 frontend/.DS_Store
 frontend/Thumbs.db
+
+# =========================
+# Backend (ASP.NET Core)
+# =========================
+backend/bin/
+backend/obj/
+backend/out/
+
+# User-specific files
+backend/*.user
+backend/*.suo
+backend/*.userosscache
+backend/*.sln.docstates
+
+# IDE / editor folders
+backend/.vs/
+backend/.vscode/
+backend/.idea/
+
+# OS generated files
+backend/.DS_Store
+backend/Thumbs.db
+
+# Logs
+backend/*.log
+
+# Secrets / local config
+backend/appsettings.Development.json
+backend/secrets.json
+
+# NuGet packages
+backend/*.nupkg
+backend/packages/
+backend/.nuget/
+
+# Dotnet global tools
+backend/dotnet-tools.json
+
+# Docker / temporary files (optional)
+backend/*.dockerignore

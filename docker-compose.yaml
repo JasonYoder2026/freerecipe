@@ -14,5 +14,32 @@ services:
     volumes:
       - freerecipe_pgdata:/var/lib/postgresql/data
 
+  backend:
+    build:
+      context: ./backend
+    container_name: freerecipe_backend
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=freerecipe;Username=freerecipe_user;Password=freerecipe_password
+    ports:
+      - "5000:80"   
+    command: ["dotnet", "run", "--urls", "http://+:80"]
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: freerecipe_frontend
+    ports:
+      - "4200:4200"
+    command: ["npm", "start"]
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
 volumes:
   freerecipe_pgdata:
