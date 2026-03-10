@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "C1/k/IyQ9T4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yoder\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\yoder\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
