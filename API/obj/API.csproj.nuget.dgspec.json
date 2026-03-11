@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\API\\API.csproj": {}
+    "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\API\\API.csproj": {
+    "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\API\\API.csproj",
+        "projectPath": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\api\\API.csproj",
         "packagesPath": "C:\\Users\\yoder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\API\\obj\\",
+        "outputPath": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yoder\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -7,6 +7,12 @@ interface LoginRequest {
   password: string;
 }
 
+interface SignupRequest {
+  displayName: string;
+  email: string;
+  password: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -20,4 +26,7 @@ export class AuthService {
     return this.http.post(`${this.apiUrl}/login`, data);
   }
 
+  signup(data: SignupRequest): Observable<any> {
+    return this.http.post(`${this.apiUrl}/signup`, data);
+  }
 }

@@ -22,7 +22,7 @@ public class AuthController : ControllerBase
         _config = config;
     }
 
-    [HttpPost("register")]
+    [HttpPost("signup")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
         var user = new AppUser
