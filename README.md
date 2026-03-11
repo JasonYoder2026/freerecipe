@@ -3,4 +3,11 @@
 
 ---
 
-To launch db locally run ```docker compose up -d```
+Dev workflow:
+```docker compose up postgres```
+API/ ```dotnet run```
+Client/ ```ng serve```
+
+Major version:
+
+```docker compose up --build```

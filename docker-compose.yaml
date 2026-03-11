@@ -1,4 +1,3 @@
-version: "3.9"
 
 services:
   postgres:
@@ -16,7 +15,7 @@ services:
 
   backend:
     build:
-      context: ./backend
+      context: ./API
     container_name: freerecipe_backend
     depends_on:
       - postgres
@@ -24,8 +23,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__Default=Host=postgres;Port=5432;Database=freerecipe;Username=freerecipe_user;Password=freerecipe_password
     ports:
-      - "5000:80"   
-    command: ["dotnet", "run", "--urls", "http://+:80"]
+      - "5000:80"
 
   frontend:
     build:

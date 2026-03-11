@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QkY2Rfof5kA=",
+  "dgSpecHash": "4krtdNzAxW8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\yoder\\OneDrive\\Documents\\freerecipe\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yoder\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\yoder\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.4\\microsoft.aspnetcore.authentication.jwtbearer.10.0.4.nupkg.sha512",
