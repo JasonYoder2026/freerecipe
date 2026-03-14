@@ -3,11 +3,6 @@
 
 ---
 
-Dev workflow:
-```docker compose up postgres```
-API/ ```dotnet run```
-Client/ ```ng serve```
+## Development Documentation
 
-Major version:
-
-```docker compose up --build```
+Our development documentation can be found [here](development.md).
