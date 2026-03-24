@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    container_name: freerecipe_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: freerecipe
+      POSTGRES_USER: freerecipe_user
+      POSTGRES_PASSWORD: freerecipe_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - freerecipe_pgdata:/var/lib/postgresql/data
+volumes:
+  freerecipe_pgdata:
