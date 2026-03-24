@@ -1,3 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+:root {
+  /* Sage green palette — built around icon #8BA48F */
+
+  --color-page-bg:        #EEF3EF;
+  --color-light-accent:   #C5D9C8;
+  --color-icon:           #8BA48F;
+  --color-ui:             #5C7A61;
+  --color-hero:           #3A5540;
+  --color-deep:           #243529;
+
+  /* Semantic aliases */
+  --color-btn-bg:         var(--color-ui);
+  --color-btn-text:       #EEF3EF;
+  --color-btn-hover:      #4e6a54;
+
+  --color-hero-bg:        var(--color-hero);
+  --color-hero-text:      #EEF3EF;
+  --color-hero-muted:     var(--color-icon);
+  --color-hero-eyebrow:   var(--color-light-accent);
+
+  --color-footer-bg:      var(--color-hero);
+  --color-footer-text:    var(--color-light-accent);
+
+  --color-body-text:      var(--color-deep);
+  --color-muted-text:     var(--color-ui);
+  --color-card-bg:        #ffffff;
+  --color-card-border:    var(--color-light-accent);
+  --color-strip-bg:       #dce8de;
+}
