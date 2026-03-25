@@ -1,1 +1,42 @@
-<p>signup works!</p>
+
+    <nav>
+        <img src="/icon.png" alt="Free Recipe logo" class="nav-logo w-32 h-32">
+        <a href="/" class="nav-wordmark">Free Recipe</a>
+    </nav>
+
+    <main class="min-h-screen flex flex-col">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">
+                    <img src="/icon.png" alt="Free Recipe logo" class="hero-icon">
+                </div>
+                <h1>Welcome!</h1>
+                <p>Create an account to get access to countless recipes!</p>
+            </div>
+
+            <form action="/register" method="POST">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="••••••••"
+                        autocomplete="current-password" required />
+                    <a href="/forgot-password" class="forgot">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn-submit">Sign in</button>
+            </form>
+
+            <div class="divider">or</div>
+
+            <p class="switch-link">Don't have an account? <a href="/register">Sign up free</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Free Recipe. All rights reserved.</p>
+    </footer>
