@@ -1,0 +1,50 @@
+<body >
+
+  <nav>
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="32" height="32" rx="8" fill="#8BA48F"/>
+      <path d="M16 7C16 7 9 12 9 18a7 7 0 0014 0c0-6-7-11-7-11z" fill="#EEF3EF"/>
+      <path d="M16 13v9" stroke="#8BA48F" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <a href="/" class="nav-wordmark">Free Recipe</a>
+  </nav>
+
+  <main class="min-h-screen flex flex-col">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">
+          <svg width="26" height="26" viewBox="0 0 32 32" fill="none">
+            <path d="M16 4C16 4 7 10.5 7 18a9 9 0 0018 0c0-7.5-9-14-9-14z" fill="#EEF3EF"/>
+            <path d="M16 12v10" stroke="#8BA48F" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h1>Welcome back</h1>
+        <p>Sign in to your Free Recipe account</p>
+      </div>
+
+      <form action="/login" method="POST">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required />
+          <a href="/forgot-password" class="forgot">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn-submit">Sign in</button>
+      </form>
+
+      <div class="divider">or</div>
+
+      <p class="switch-link">Don't have an account? <a href="/register">Sign up free</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Free Recipe. All rights reserved.</p>
+  </footer>
+
+</body>
